@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Waste-Management/Static/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="input-form">
+            <form action="/Waste-Management/templates/user-ac.html">
+                <label for="" >Weight of Garbage</label>
+                <input required class="fields-1" type="text" id="weigth" placeholder="Enter the Weight"><br>
+                <label for="">Nature of Garbage</label>
+                <select id="nature" class="fields-1" name="" id="">
+                    <option value="select">Select...</option>
+                    <option value="wet">Wet</option>
+                    <option value="dry">Dry</option>
+                </select><br>
+                <label for="">Landmark</label>
+                <input required id="landmark" class="fields-1" type="text" placeholder="Enter Landmark"><br>
+                <label for="">Type of Waste</label>
+                <select id="types" class="fields-1" name="" id="">
+                    <option value="select">Select...</option>
+                    <option value="e-waste">E-Waste</option>
+                    <option value="bio">Bio-Hazard Waste(Medical Waste)</option>
+                    <option value="recyclable">Recyclable</option>
+                    <option value="non-recyclable">Non-Recyclable</option>
+                    <option value="other">Other...</option>
+                </select><br>
+                <label for="myfile">Select a file:</label><br>
+                <input required class="fields-1" type="file" id="myfile" name="myfile"><br><br>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js%22%3E"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js%22%3E"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js%22%3E"></script>
+        <script src="/Waste-Management/templates/Info.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    color: #594545;
+    background-color: #F0EBCE;
+    
+}
+.bg-img{
+    background-image: url(/Waste-Management/img/Untitled\ design.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.bg-imghome{
+    background-image: url(/Waste-Management/img/4C042948-6D2B-4922-9777-785F5922D36E.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    top: 100px;  
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.user {
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.admin {
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #AA8B56;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #AA8B56;
+    width: 400px;
+    height: 500px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+form{
+    background-color: #AA8B56;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #F0EBCE;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #F0EBCE;
+    border-radius: 5em;
+    border: none;
+    padding: 10px 40px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #AA8B56;
+    width: 400px;
+    height: 600px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.form-head {
+    padding: 10px;
+    background-color: #AA8B56;
+}
+
+.fields-1 {
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #F0EBCE;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;   
+    background-color: #AA8B56;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 42px;
+    background-color: #594545;
+    height: 700px;
+}   
+.dashboard{
+    background-color: #AA8B56;
+    padding: 20px;
+    margin: 5px;   
+}
+.context{
+    background-color: #F0EBCE;
+    padding: 15px;
+}
+.dash{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.not-an p, a{
+    text-decoration: none;
+    background-color: #AA8B56;
+    font-size: 18px;
+}
+.not-an a{
+    font-weight: 600;
+}
+.not-an{
+    padding: 20xp;
+    margin: 15px;
+}
+.cards{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: #AA8B56;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+}
+.card-img img{
+    background-color: #AA8B56;
+}
+.card-img p{
+    display: flex;
+    justify-content: center;
+    background-color: #AA8B56;
+    font-size: 20px;
+}
+.card-content p{
+    display: flex;
+    justify-content: center;
+    background-color: #AA8B56;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+
